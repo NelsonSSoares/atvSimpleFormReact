@@ -1,0 +1,17 @@
+button{
+    width: 200px;
+    height: 25px;
+    color: black;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid black; 
+    margin-bottom: 10px;
+}
+
+button:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    border: 2px solid white;
+    color: white;
+}
